@@ -13,6 +13,6 @@ public class Form {
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
     public String returnName(@RequestParam("name") String name) {
-        return "Name is : " + name;
+        return "Name is by : " + name;
     }
 }
